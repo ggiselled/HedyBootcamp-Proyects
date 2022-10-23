@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container{
+  margin-bottom: 200px;
+}
+
+.criptos{
+  display: flex;
+  border: solid 2px green;
+  padding: 50px;
+  margin-top: 80px;
+}
+
+li{
+  list-style: none;
+}
+
+
+/* Eventos */
+.center{
+  text-align: center;
+  color: blueviolet;
+}
+
+.left{
+  text-align: left;
+  color: red;
+}
+
+.right{
+  text-align: right;
+  color: blue;
+}
+
+.p1{
+  background-color: aquamarine;
+}
+
+.p2{
+  background-color: darkgoldenrod;
+}
+
+.p3{
+  background-color: darkorchid;
+}
