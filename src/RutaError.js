@@ -1,4 +1,4 @@
-import error from './img/404.jpg'
+import error from './img/404.png'
 export const RutaError = () => {
     return(
         <>

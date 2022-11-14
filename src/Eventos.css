@@ -1,0 +1,46 @@
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.p1{
+    color: #FEBE8C;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.p2{
+    color: #B6E2A1;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.p3{
+    color: #FFFBC1;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 50px;
+    color: #666;
+}

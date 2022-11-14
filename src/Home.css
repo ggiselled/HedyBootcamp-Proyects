@@ -1,0 +1,19 @@
+.home__profile h1{
+    font-size: 80px;
+    color: #6666;
+}
+
+.home__profile span{
+    font-size: 40px;
+}
+
+.home__description{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.home__profile p{
+    font-size: 30px;
+    background-color: #FEBE8C;
+}
+

@@ -1,4 +1,5 @@
 import {useState} from "react"
+import "./Componente.css"
 
 export const ComponenteAuto = () => {
     const [counter, setCounter] = useState(0)
@@ -12,11 +13,12 @@ export const ComponenteAuto = () => {
 
     return(
         <>
-            <h1>UseState</h1>
-            <div>
-                <h2 onClick = {cambioMarca}>Marca del vehículo {marca ? 'Renault' : 'Citroen'}</h2>
-                <h2>Cantidad a comprar: {counter}</h2>
-                <button onClick={random}>Cantidad aleatoria</button>
+            <div className="componente">
+                <h2 onClick = {cambioMarca}>Haz click para seleccionar la marca: {marca ? 'Renault' : 'Citroen'}</h2>
+                <div className="componente__cantidad">
+                    <h2>Cantidad alaeatoria seleccionada: {counter}</h2>
+                    <button onClick={random}>Agregar</button>
+                </div>
             </div>
         </>
     )

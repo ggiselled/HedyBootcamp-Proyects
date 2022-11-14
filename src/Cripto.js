@@ -1,5 +1,6 @@
 import axios from "axios";
 import {useEffect, useState} from "react";
+import "./Cripto.css"
 
 export const CriptoApp = () => {
     const [getCripto, setGetCripto] = useState('');
@@ -21,7 +22,7 @@ export const CriptoApp = () => {
     }, []);
 
     return (
-        <div className = "container">
+        <div className="cripto__container">
             <ul>
                 {!getCripto ? 'Cargando cripto datos :) ' : getCripto.map((data)=>
                 <div className = 'criptos'>

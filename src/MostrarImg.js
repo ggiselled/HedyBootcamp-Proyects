@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Button } from "./BotonEstado"
+import "./MostrarImg.css"
 import gato from './img/gato.jpg'
 import conejo from './img/conejo.jpg'
 
@@ -9,10 +10,10 @@ export const VerMascota = () => {
 
     return (
         <>      
-    <Button value="Gato" onClick={() => setShowComponente(!showComponente)} />
-      {showComponente && <img src={gato}/>}
-      <Button value="Conejo" onClick={() => setShowComponente2(!showComponente2)} />
-      {showComponente2 && <img src={conejo}/>}
+            <Button value="Gato" onClick={() => setShowComponente(!showComponente)} className="Buttonimg" />
+            {showComponente && <img src={gato}/>}
+            <Button value="Conejo" onClick={() => setShowComponente2(!showComponente2)} className="Buttonimg" />
+            {showComponente2 && <img src={conejo}/>}
         </>
     )
 

@@ -1,0 +1,12 @@
+.componente{
+    margin-top: 200px;
+    color: #666;
+    
+
+}
+
+.componente__cantidad{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}

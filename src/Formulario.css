@@ -1,0 +1,15 @@
+*{
+    color: #666;
+}
+
+img{
+    width: 300px;
+}
+
+.Avatar{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+

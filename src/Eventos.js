@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./Eventos.css"
 
 export const Eventos = () => {
 
@@ -42,14 +43,20 @@ export const Eventos = () => {
 
 
     return (
+        <>
+        
+        <div  onKeyDown={(e) => editarParrafo(e)} >
+            <div className="container">
+                <h1 className={posicion} onClick={posicionTitulo}>¡Clickeame para cambiar de posición!</h1>
+                <h2>Presinando la tecla 'E' cambiará el color del texto del párrafo :) </h2>
+                <p className={parrafo}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
 
-        <div onKeyDown={(e) => editarParrafo(e)}>
-            <h1 className={posicion} onClick={posicionTitulo}>¡Clickeame para cambiar de posición!</h1>
-            <h2>Presinando la tecla 'E' cambiará el color del texto del párrafo :) </h2>
-            <p className={parrafo}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            </div>
         </div>
+        
+        </>
 
     );
 };
